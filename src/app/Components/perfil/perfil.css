@@ -1,0 +1,15 @@
+.perfil {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 16px;
+  width: 250px;
+}
+
+.perfil h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.perfil p {
+  margin: 6px 0;
+}
