@@ -10,7 +10,7 @@ export class Perfil {
   // Propiedades
   nom: string = 'Alex';
   cognom: string = 'Monreal';
-  edat: number = 18;
+  edat: number = 19;
   cicle: string = 'DAW';
 
   // Getter nom complet
