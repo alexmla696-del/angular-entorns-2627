@@ -1,5 +1,22 @@
+<!-- Perfil -->
 <div class="perfil">
-  <h2>Maria Garcia Puig</h2>
-  <p class="edat">Edat: 21 anys</p>
-  <p class="frase">Hola! Sóc estudiant de DAW i m'encanta aprendre Angular.</p>
+  <!-- Nom i cognom en majúscules, dins la mateixa interpolació -->
+  <h2>{{ (nom + ' ' + cognom).toUpperCase() }}</h2>
+
+  <!-- Propietats -->
+  <p>Nom: {{ nom }}</p>
+  <p>Cognom: {{ cognom }}</p>
+  <p>Edat: {{ edat }}</p>
+  <p>Cicle: {{ cicle }}</p>
+
+  <!-- Operador ternari -->
+  <p>Major d'edat: {{ edat >= 18 ? 'Sí' : 'No' }}</p>
+
+  <!-- Any de naixement -->
+  <p>Any de naixement: {{ 2026 - edat }}</p>
+
+  <!-- Getters -->
+  <p>Nom complet: {{ nomComplet }}</p>
+  <p>Inicials: {{ inicials }}</p>
+  <p>Generació: {{ generacio }}</p>
 </div>
